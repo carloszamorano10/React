@@ -1,0 +1,48 @@
+const Navbar = () => {    
+    
+    return ( <>
+        <nav className="navbar navbar-expand-lg bg-body-secondary">
+          <div className="container-fluid">
+            <a className="navbar-brand fw-semibold fs-1" href="#">BICIADOS</a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link px-2 fs-3" href="#">Bicicletas</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link px-2 fs-3" href="#">Indumentaria</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link px-2 fs-3" href="#">Accesorios</a>
+                </li>
+                <li className="nav-item dropdown">
+                   <a className="nav-link dropdown-toggle fs-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Componentes
+                   </a>
+                   <ul class="dropdown-menu">
+                     <li><a className="dropdown-item fs-4" href="#">Transmisión</a></li>
+                     <li><a className="dropdown-item fs-4" href="#">Ruedas</a></li>
+                     <li><a className="dropdown-item fs-4" href="#">Cuadros</a></li>
+                     <li><a className="dropdown-item fs-4" href="#">Pedales</a></li>
+                   </ul>
+                 </li>
+              </ul>
+            </div>
+
+            <div className="mx-auto p-3">
+              <a href="#" className="position-relative">
+                 <img src="./carrito.svg" alt="carrito" style={{width: 30}}/>
+                 <span id="num_cart" className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2</span>
+               </a>
+            </div>
+
+          </div>
+        </nav>
+
+    </> );
+}
+ 
+export default Navbar;
