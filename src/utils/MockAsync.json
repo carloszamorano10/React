@@ -1,0 +1,67 @@
+{ 
+"categorias": [
+{"id": 1, "nombre": "Cuadros"},
+{"id": 2, "nombre": "Componentes"},
+{"id": 3, "nombre": "Ruedas"},
+{"id": 4, "nombre": "Indumentaria"}
+],
+
+"productos": [
+{ 
+ "id":1, 
+ "nombre": "Marco 8bar Krzberg", 
+ "precio": 650000,
+ "imagen": "https://www.beastybike.eu/27791-large_default/8bar-krzberg-v7-frameset.jpg",
+ "stock": 10,
+ "categoria": 1
+},
+{
+ "id":2, 
+ "nombre": "Sillín Antares R1", 
+ "precio": 65000,
+ "imagen": "https://assets.probikeshop.fr/images/products2/36/93723/600x600-93723-pb98674-1-main.jpg",
+ "stock": 10,
+ "categoria": 2
+},
+{
+ "id":3, 
+ "nombre": "Manillar Zipp Service Course", 
+ "precio": 70000,
+ "imagen": "https://images.bike24.com/i/mb/dd/47/cb/zipp-service-course-sl70-handlebar-matte-black-1598707.jpg",
+ "stock": 10,
+ "categoria": 2
+},
+{
+ "id":4, 
+ "nombre": "Pedales Look Keo Classic 3", 
+ "precio": 30000,
+ "imagen": "https://cdnx.jumpseller.com/galibierbikes-com/image/45402597/resize/610/610?1707510521",
+ "stock": 10,
+ "categoria": 2
+},
+{
+ "id":5, 
+ "nombre": "Maza Novatec Fijo Fijo", 
+ "precio": 45000,
+ "imagen": "https://ae01.alicdn.com/kf/Hbc153310b95c4f16a48045bec44280f49.jpg_640x640Q90.jpg_.webp",
+ "stock": 10,
+ "categoria": 2
+},
+{
+ "id":6, 
+ "nombre": "Wheel Set H Plus Son", 
+ "precio": 150000,
+ "imagen": "https://www.mrbicycles.com/wp-content/uploads/2019/04/Hplusson-AT25-GC-wheelset..jpg",
+ "stock": 10,
+ "categoria": 3
+},
+{
+"id":7, 
+"nombre": "Tricota Wosawe", 
+"precio": 50000,
+"imagen": "https://s3.amazonaws.com/imagenes-sellers-mercado-ripley/2022/01/04140417/Polera-tricota-2-2.jpg",
+"stock": 10,
+"categoria": 4
+   }
+]
+}
