@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 const Navbar = () => {    
@@ -12,7 +13,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link px-2 fs-3" href="#">Productos</a>
+                  <NavLink to={'/items'} className="nav-link px-2 fs-3" href="#">Productos</NavLink>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link px-2 fs-3" href="#">Contacto</a>
@@ -22,10 +23,10 @@ const Navbar = () => {
                      Categorias
                    </a>
                    <ul class="dropdown-menu">
-                     <li><a className="dropdown-item fs-4" href="#">Ruedas</a></li>
-                     <li><a className="dropdown-item fs-4" href="#">Cuadros</a></li>
-                     <li><a className="dropdown-item fs-4" href="#">Componentes</a></li>
-                     <li><a className="dropdown-item fs-4" href="#">Indumentaria</a></li>
+                     <li><NavLink to="/category/3" className="dropdown-item fs-4" href="#">Ruedas</NavLink></li>
+                     <li><NavLink to="/category/1" className="dropdown-item fs-4" href="#">Cuadros</NavLink></li>
+                     <li><NavLink to="/category/2" className="dropdown-item fs-4" href="#">Componentes</NavLink></li>
+                     <li><NavLink to="/category/4" className="dropdown-item fs-4" href="#">Indumentaria</NavLink></li>
                    </ul>
                  </li>
               </ul>
